@@ -7,7 +7,7 @@ body, html {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    overflow-x: hidden; /* Prevents horizontal scrolling */
+    overflow-x: hidden; 
 }
 
 /* Navigation Bar */
@@ -67,7 +67,7 @@ main {
 
 /* Right Column - Content */
 .right-column {
-    max-width: 900px; /* Limiting the maximum width */
+    max-width: 900px; 
     display: flex;
     flex-direction: column;
     margin-left: 20px;
@@ -93,12 +93,12 @@ main {
 }
 
 .main-work-image {
-    width: 100%; /* Ensures the main image spans the full width */
+    width: 100%; 
     object-fit: cover;
 }
 
 .small-work-image {
-    width: calc(50% - 5px); /* Width for 2 images per row accounting for the gap */
+    width: calc(50% - 5px); 
     object-fit: cover;
 }
 
